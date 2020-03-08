@@ -1,0 +1,53 @@
+body {
+  font-family: "Arial";
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav {
+  display: center;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+  display: block;
+  margin-right: auto;
+  color: white;
+}
+
+header {
+  text-align: center;
+  background: url('Images/rsz_placeimg_400_400_arch.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.main-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+
+h1 {
+  background-color: #e2e2e2;
+  padding: 5px;
+}
+
+.section-title {
+    text-transform: capitalize;
+}
