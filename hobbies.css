@@ -8,7 +8,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: black;
 }
 /* Link Styles */
 
@@ -94,7 +94,7 @@ header .profile-image:hover {
   border-radius: 6px;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: red;
 }
 
 ul.skills {
@@ -188,6 +188,7 @@ a.social:hover {
   }
 
   main {
+    display: ;
     padding-top: 50px;
   }
 
